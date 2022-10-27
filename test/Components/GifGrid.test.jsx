@@ -1,4 +1,4 @@
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import { GifGrid } from '../../src/Components/GifGrid'
 import { useFetchGifs } from '../../src/Hooks/useFetchGifs';
 useFetchGifs
